@@ -1,0 +1,257 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* navbar */
+.Nav-icon {
+  width: 13rem;
+  padding: 0.2rem 1.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  color: #666;
+}
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #333;
+}
+.nav-link:hover,
+.nav-link:active {
+  transform: scale(1.1);
+  color: #f65a83;
+}
+
+/* banner */
+.banner-section-bg-container {
+  height: 100vh;
+  background-image: linear-gradient(#452d4295, #452d4295),
+    url("images/background.png");
+  background-size: cover;
+}
+.banner-heading {
+  color: rgb(226, 216, 225);
+
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+/* buttons */
+.custom-buttons {
+  font-weight: bold;
+  background-color: #fff;
+  color: #333;
+  border: 0;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.custom-buttons:hover,
+.custom-buttons:active {
+  background-color: #f65a83;
+  color: #fff;
+}
+
+/* wcu section */
+.wcu-section {
+  background-color: #ffe6e6;
+}
+.wcu-section-heading {
+  font-weight: 700;
+  font-size: 28px;
+  color: #183b56;
+}
+.wcu-section-description {
+  font-size: 16px;
+  color: #5a7184;
+}
+.wcu-card {
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+}
+.wcu-card-image {
+  height: 90px;
+  width: 87px;
+}
+.wcu-card-tite {
+  font-weight: 500;
+  font-size: 22px;
+  color: #e2e6ea;
+}
+.wcu-card-description {
+  font-size: 16px;
+  color: gray;
+}
+
+/* explore material section */
+.explore-material-section {
+  background-color: #fff;
+}
+.material-section-heading {
+  font-weight: 700;
+  font-size: 28px;
+  color: #183b56;
+}
+.material-item-image {
+  border-radius: 16px;
+  width: 290px;
+  height: 200px;
+}
+.material-card-title {
+  color: #323f4b;
+
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 24px;
+}
+.material-item-link {
+  color: #d0b200;
+
+  font-weight: 500;
+  font-size: 14px;
+}
+.material-item-card {
+  border-radius: 16px;
+  background-color: white;
+}
+
+/* best seller section */
+.best-seller-section {
+  background-color: rgba(153, 153, 153, 0.174);
+}
+.best-seller-section-img {
+  width: 270px;
+}
+.best-seller-section-heading {
+  font-weight: 700;
+  font-size: 28px;
+  color: #183b56;
+}
+.best-seller-section-description {
+  color: #5a7184;
+
+  font-size: 16px;
+}
+
+/* button */
+.custom-button {
+  font-weight: bold;
+  background-color: #333;
+  border: 0;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.custom-button:link,
+.custom-button:visited {
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+}
+.custom-button:hover,
+.custom-button:active {
+  transform: scale(1.1);
+  background-color: #f65a83;
+  color: #fff;
+}
+
+/* delivery and payment section */
+.delivery-and-payment-section {
+  background-color: rgba(153, 153, 153, 0.174);
+}
+
+.delivery-and-payment-section-img {
+  width: 270px;
+}
+.delivery-and-payment-section-heading {
+  font-weight: 700;
+  font-size: 28px;
+  color: #183b56;
+}
+.delivery-and-payment-section-description {
+  color: #5a7184;
+
+  font-size: 16px;
+}
+.payment-card-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 28px;
+}
+
+/* thanking customer */
+.thanking-customers-section {
+  background-image: radial-gradient(#fff, #f2d1d1);
+}
+.thanking-customers-section-heading {
+  font-weight: 700;
+  font-size: 28px;
+  color: #183b56;
+}
+.thanking-customers-section-description {
+  color: #5a7184;
+
+  font-size: 16px;
+}
+.thanking-customers-section-img {
+  width: 270px;
+  margin-bottom: 20px;
+}
+.thanking-customer-section-modal-title {
+  color: #d0b200;
+  font-weight: 800;
+}
+
+/* follow us */
+.follow-us-section {
+  background-color: #daeaf13b;
+}
+.follow-us-section-heading {
+  font-weight: 700;
+  font-size: 28px;
+  color: #183b56;
+  text-align: center;
+}
+.follow-us-icon-container {
+  border-radius: 40px;
+  width: 80px;
+  height: 80px;
+  background-color: #f2d1d1;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+  margin: 15px;
+}
+.icon {
+  color: #f65a83;
+  font-size: 35px;
+}
+
+/* footer section */
+.footer-section {
+  background-color: rgba(153, 153, 153, 0.174);
+}
+.footer-section-mail-id {
+  color: #959ead;
+
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.footer-section-address {
+  color: #959ead;
+
+  font-size: 14px;
+}
+
+/* video */
+.video-shop {
+  width: 100%;
+}
